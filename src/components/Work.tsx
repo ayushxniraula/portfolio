@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { FaAws } from "react-icons/fa6";
 import {
   SiAngular,
   SiDocker,
@@ -7,8 +6,10 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiReact,
+  SiSupabase,
   SiTypescript,
 } from "react-icons/si";
+import { FaAws } from "react-icons/fa6";
 
 const Work = () => {
   useEffect(() => {
@@ -153,33 +154,28 @@ const Work = () => {
           </span>
         </div>
         <div className="section-sub">
-          where I&rsquo;ve been, and what I build with Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Fugiat, incidunt odio quaerat
-          beatae voluptate, quidem soluta maxime autem ipsum distinctio
-          debitis optio, aspernatur iure minima provident cumque recusandae
-          architecto nemo..
+          Where I've been, and what I've built along the way — fintech, remittance, and digital wallet platforms serving hundreds of thousands of users, a government fraud-investigation portal along the way, plus a few detours into real estate and lottery systems on the side.
         </div>
 
         <div className="dual-col">
           <div>
             <div className="col-title" id="work-exp-heading">
               <u>Work Experience</u>
-             
             </div>
             <div className="exp-list" role="list" aria-labelledby="work-exp-heading">
               <div
                 className="exp-row"
-                data-highlights="Led architecture for a platform processing 1M+ transactions monthly|Managed and mentored a team of 5 engineers|Cut page load times by 40% through code-splitting and caching|Built a CI/CD pipeline, cutting deploy time from hours to minutes|Shipped 3 major product modules from 0 to 1"
+                data-highlights="Leading a team of 5 developers across Angular and React|Shipped 21 remittance apps across 21 platforms in 4 months|Built RIREMS, a Supabase-backed fraud investigation portal|Delivered a multi-vendor marketplace and a temple admin portal|Architecting XpressV2, a next-gen Angular monorepo"
                 tabIndex={0}
                 role="button"
                 aria-expanded="false"
-                aria-label="Senior Fullstack Developer, Nimbus Cloudworks, 2023 to Present. Press Enter to show highlights."
+                aria-label="Software Engineer, FE Team Lead, The Big Solutions, 2024 to Present. Press Enter to show highlights."
               >
                 <span className="exp-dot" aria-hidden="true"></span>
                 <div>
-                  <div className="exp-role">Senior Fullstack Developer</div>
+                  <div className="exp-role">Software Engineer / FE Team Lead</div>
                   <div className="exp-meta">
-                    Nimbus Cloudworks &middot; 2023&ndash;Present
+                    The Big Solutions &middot; 2024&ndash;Present
                   </div>
                   <ul className="exp-inline"></ul>
                 </div>
@@ -187,17 +183,17 @@ const Work = () => {
 
               <div
                 className="exp-row"
-                data-highlights="Built and shipped 10+ full-stack features end-to-end|Reduced API response times by 35% through query optimization|Implemented real-time features for 50K+ active users|Partnered with design to rebuild the core dashboard UX|Added test coverage that cut production bugs by 25%"
+                data-highlights="Integrated 50+ services into a KYC digital wallet, 500K+ users|Built MyPay Gold, a live gold and silver investment platform|Shipped voting platforms with PayPal and Stripe integration|Built the Agent Wallet's commission and sub-network tools|Partnered cross-functionally on real-time notifications"
                 tabIndex={0}
                 role="button"
                 aria-expanded="false"
-                aria-label="MERN Stack Developer, Byteforge Labs, 2021 to 2023. Press Enter to show highlights."
+                aria-label="Software Engineer, MyPay, 2023 to 2024. Press Enter to show highlights."
               >
                 <span className="exp-dot" aria-hidden="true"></span>
                 <div>
-                  <div className="exp-role">MERN Stack Developer</div>
+                  <div className="exp-role">Software Engineer</div>
                   <div className="exp-meta">
-                    Byteforge Labs &middot; 2021&ndash;2023
+                    MyPay &middot; 2023&ndash;2024
                   </div>
                   <ul className="exp-inline"></ul>
                 </div>
@@ -205,37 +201,34 @@ const Work = () => {
 
               <div
                 className="exp-row"
-                data-highlights="Rebuilt the core Angular app on a MEAN stack, cutting bundle size by 30%|Built a reusable component library adopted across 4 product teams|Migrated legacy AngularJS views to Angular with zero downtime|Introduced reactive forms and RxJS patterns for complex flows|Paired closely with backend on API contracts and edge cases"
+                data-highlights="Delivered production websites for a range of clients|Built full-stack skills from HTML/CSS/JS to backend|Learned to scope, price, and ship projects independently"
                 tabIndex={0}
                 role="button"
                 aria-expanded="false"
-                aria-label="Frontend Engineer, Angular and MEAN, Vertex Softworks, 2019 to 2021. Press Enter to show highlights."
+                aria-label="Freelance Full-Stack Developer, 2020 to 2022. Press Enter to show highlights."
               >
                 <span className="exp-dot" aria-hidden="true"></span>
                 <div>
-                  <div className="exp-role">Frontend Engineer (Angular/MEAN)</div>
+                  <div className="exp-role">Freelance Full-Stack Developer</div>
                   <div className="exp-meta">
-                    Vertex Softworks &middot; 2019&ndash;2021
+                    Independent &middot; 2020&ndash;2022
                   </div>
                   <ul className="exp-inline"></ul>
                 </div>
               </div>
+            </div>
 
-              <div
-                className="exp-row"
-                data-highlights="Built marketing landing pages and static sites from design handoffs|Learned the fundamentals of responsive, cross-browser layout|Maintained and patched a handful of WordPress client sites|Assisted senior devs with QA and bug triage|First real exposure to version control and code review"
-                tabIndex={0}
-                role="button"
-                aria-expanded="false"
-                aria-label="Junior Web Developer, Pixel and Co., 2018 to 2019. Press Enter to show highlights."
-              >
+            <div className="col-title" id="education-heading" style={{ marginTop: "2rem" }}>
+              <u>Education</u>
+            </div>
+            <div className="exp-list" role="list" aria-labelledby="education-heading">
+              <div className="exp-row" role="listitem">
                 <span className="exp-dot" aria-hidden="true"></span>
                 <div>
-                  <div className="exp-role">Junior Web Developer</div>
+                  <div className="exp-role">B.Eng. in Computer Engineering</div>
                   <div className="exp-meta">
-                    Pixel &amp; Co. &middot; 2018&ndash;2019
+                    Tribhuvan University, IOE &middot; 2019&ndash;2023
                   </div>
-                  <ul className="exp-inline"></ul>
                 </div>
               </div>
             </div>
@@ -248,10 +241,18 @@ const Work = () => {
             <div className="stack-list" role="list" aria-labelledby="tech-stack-heading">
               <div className="stack-row" role="listitem">
                 <span className="stack-icon" aria-hidden="true">
-                  <SiReact aria-hidden="true" focusable="false" />
+                  <SiNodedotjs aria-hidden="true" focusable="false" />
                 </span>
                 <span className="stack-name">
-                  React <span>&mdash; frontend</span>
+                  Node.js <span>&mdash; runtime</span>
+                </span>
+              </div>
+              <div className="stack-row" role="listitem">
+                <span className="stack-icon" aria-hidden="true">
+                  <SiTypescript aria-hidden="true" focusable="false" />
+                </span>
+                <span className="stack-name">
+                  TypeScript <span>&mdash; language</span>
                 </span>
               </div>
               <div className="stack-row" role="listitem">
@@ -264,10 +265,10 @@ const Work = () => {
               </div>
               <div className="stack-row" role="listitem">
                 <span className="stack-icon" aria-hidden="true">
-                  <SiNodedotjs aria-hidden="true" focusable="false" />
+                  <SiReact aria-hidden="true" focusable="false" />
                 </span>
                 <span className="stack-name">
-                  Node.js <span>&mdash; runtime</span>
+                  React <span>&mdash; frontend</span>
                 </span>
               </div>
               <div className="stack-row" role="listitem">
@@ -280,18 +281,18 @@ const Work = () => {
               </div>
               <div className="stack-row" role="listitem">
                 <span className="stack-icon" aria-hidden="true">
-                  <SiMongodb aria-hidden="true" focusable="false" />
+                  <SiSupabase aria-hidden="true" focusable="false" />
                 </span>
                 <span className="stack-name">
-                  MongoDB <span>&mdash; database</span>
+                  Supabase <span>&mdash; database & auth</span>
                 </span>
               </div>
               <div className="stack-row" role="listitem">
                 <span className="stack-icon" aria-hidden="true">
-                  <SiTypescript aria-hidden="true" focusable="false" />
+                  <SiMongodb aria-hidden="true" focusable="false" />
                 </span>
                 <span className="stack-name">
-                  TypeScript <span>&mdash; language</span>
+                  MongoDB <span>&mdash; database</span>
                 </span>
               </div>
               <div className="stack-row" role="listitem">
@@ -308,6 +309,14 @@ const Work = () => {
                 </span>
                 <span className="stack-name">
                   AWS <span>&mdash; cloud</span>
+                </span>
+              </div>
+                <div className="stack-row" role="listitem">
+                <span className="stack-icon" aria-hidden="true">
+                  <SiExpress aria-hidden="true" focusable="false" />
+                </span>
+                <span className="stack-name">
+                  Express <span>&mdash; API</span>
                 </span>
               </div>
             </div>

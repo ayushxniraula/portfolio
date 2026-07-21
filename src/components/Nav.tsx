@@ -6,6 +6,7 @@ const Nav = () => {
 
   const isHome: any = location.pathname === "/";
   const caseStudyActive: any = location.pathname === "/case-study";
+  const contactActive: any = location.pathname === "/contact";
 
   const isBack: any = !isHome;
   const isBlogPost: any = /^\/blog\/.+/.test(location.pathname);
@@ -53,6 +54,12 @@ const Nav = () => {
           >
             Case Study
           </Link>
+          <Link
+  className={"nav-link" + (contactActive ? " is-active" : "")}
+  to="/contact"
+>
+  Contact
+</Link>
         </nav>
       </div>
     </>
