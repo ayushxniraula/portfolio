@@ -11,7 +11,6 @@ import {
   FaXmark,
   FaSun,
   FaMoon,
-  FaKeyboard,
   FaArrowUpRightFromSquare,
 } from "react-icons/fa6";
 import Nav from "./Nav";
