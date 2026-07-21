@@ -121,79 +121,84 @@ const Project = () => {
           </span>
         </div>
         <div className="section-sub">
-          where I've been, and what I build with Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Fugiat, incidunt odio quaerat beatae
-          voluptate, quidem soluta maxime autem ipsum distinctio debitis
-          optio, aspernatur iure minima provident cumque recusandae
-          architecto nemo..
+          A mix of client and freelance work — remittance platforms, digital
+          wallets, e-commerce, and a few passion projects on the side.
         </div>
 
         <div className="project-list" role="list" aria-labelledby="projects-heading">
-          <a className="project-link" role="listitem" href="#" target="_blank" rel="noopener" data-preview-color="#33587e" data-preview-label="01">
+          <a className="project-link" role="listitem" href="https://www.xpressewa.com/" target="_blank" rel="noopener" data-preview-color="#33587e" data-preview-label="01">
             <span className="p-dot" aria-hidden="true"></span>
-            <span className="p-name">Freight Rate Dashboard</span>
+            <span className="p-name">Xpress Sewa &mdash; Remittance Platform</span>
             <span className="sr-only"> (opens in a new tab)</span>
             <span className="p-arrow" aria-hidden="true">
               <FaArrowUpRightFromSquare aria-hidden="true" focusable="false" />
             </span>
           </a>
-          <a className="project-link" role="listitem" href="#" target="_blank" rel="noopener" data-preview-color="#5c7e33" data-preview-label="02">
+          <a className="project-link" role="listitem" href="https://customer.mypay.com.np/" target="_blank" rel="noopener" data-preview-color="#5c7e33" data-preview-label="02">
             <span className="p-dot" aria-hidden="true"></span>
-            <span className="p-name">Carrier Onboarding Flow</span>
+            <span className="p-name">MyPay Digital Wallet</span>
             <span className="sr-only"> (opens in a new tab)</span>
             <span className="p-arrow" aria-hidden="true">
               <FaArrowUpRightFromSquare aria-hidden="true" focusable="false" />
             </span>
           </a>
-          <a className="project-link" role="listitem" href="#" target="_blank" rel="noopener" data-preview-color="#7e5c33" data-preview-label="03">
+          <a className="project-link" role="listitem" href="https://mypay.com.np/" target="_blank" rel="noopener" data-preview-color="#7e5c33" data-preview-label="03">
             <span className="p-dot" aria-hidden="true"></span>
-            <span className="p-name">Procurement Ops Console</span>
+            <span className="p-name">MyPay &mdash; Agent &amp; Services Portal</span>
             <span className="sr-only"> (opens in a new tab)</span>
             <span className="p-arrow" aria-hidden="true">
               <FaArrowUpRightFromSquare aria-hidden="true" focusable="false" />
             </span>
           </a>
-          <a className="project-link" role="listitem" href="#" target="_blank" rel="noopener" data-preview-color="#33667e" data-preview-label="04">
+          <a className="project-link" role="listitem" href="https://www.mypaygold.com/" target="_blank" rel="noopener" data-preview-color="#33667e" data-preview-label="04">
             <span className="p-dot" aria-hidden="true"></span>
-            <span className="p-name">Load Booking Admin Utility</span>
+            <span className="p-name">MyPay Gold &mdash; Investment Platform</span>
             <span className="sr-only"> (opens in a new tab)</span>
             <span className="p-arrow" aria-hidden="true">
               <FaArrowUpRightFromSquare aria-hidden="true" focusable="false" />
             </span>
           </a>
-          <a className="project-link" role="listitem" href="#" target="_blank" rel="noopener" data-preview-color="#6e3378" data-preview-label="05">
+          <a className="project-link" role="listitem" href="https://www.mypayevents.com/" target="_blank" rel="noopener" data-preview-color="#6e3378" data-preview-label="05">
             <span className="p-dot" aria-hidden="true"></span>
-            <span className="p-name">Real Estate Listing Platform</span>
+            <span className="p-name">MyPay Events &mdash; Voting Platform</span>
             <span className="sr-only"> (opens in a new tab)</span>
             <span className="p-arrow" aria-hidden="true">
               <FaArrowUpRightFromSquare aria-hidden="true" focusable="false" />
             </span>
           </a>
-          <a className="project-link" role="listitem" href="#" target="_blank" rel="noopener" data-preview-color="#7e3355" data-preview-label="06">
+          <a className="project-link" role="listitem" href="https://instaremit.com.au/" target="_blank" rel="noopener" data-preview-color="#7e3355" data-preview-label="06">
             <span className="p-dot" aria-hidden="true"></span>
-            <span className="p-name">Flight Booking Admin Panel</span>
+            <span className="p-name">Insta Remit &mdash; AU Remittance</span>
             <span className="sr-only"> (opens in a new tab)</span>
             <span className="p-arrow" aria-hidden="true">
               <FaArrowUpRightFromSquare aria-hidden="true" focusable="false" />
             </span>
           </a>
-          <a className="project-link" role="listitem" href="#" target="_blank" rel="noopener" data-preview-color="#3e7e33" data-preview-label="07">
+          <a className="project-link" role="listitem" href="https://registeredremit.com.au/" target="_blank" rel="noopener" data-preview-color="#3e7e33" data-preview-label="07">
             <span className="p-dot" aria-hidden="true"></span>
-            <span className="p-name">Fraud Reporting Portal (Gov)</span>
+            <span className="p-name">Registered Remit &mdash; AU Remittance</span>
             <span className="sr-only"> (opens in a new tab)</span>
             <span className="p-arrow" aria-hidden="true">
               <FaArrowUpRightFromSquare aria-hidden="true" focusable="false" />
             </span>
           </a>
-          <a className="project-link" role="listitem" href="#" target="_blank" rel="noopener" data-preview-color="#7e6b33" data-preview-label="08">
+          <a className="project-link" role="listitem" href="https://shreeommandir.com/" target="_blank" rel="noopener" data-preview-color="#7e6b33" data-preview-label="08">
             <span className="p-dot" aria-hidden="true"></span>
-            <span className="p-name">Remittance Wallet Dashboard</span>
+            <span className="p-name">Shree Om Mandir &mdash; Digital Temple App</span>
             <span className="sr-only"> (opens in a new tab)</span>
             <span className="p-arrow" aria-hidden="true">
               <FaArrowUpRightFromSquare aria-hidden="true" focusable="false" />
             </span>
           </a>
-          <a className="project-link" role="listitem" href="#" target="_blank" rel="noopener" data-preview-color="#33417e" data-preview-label="09">
+          <a className="project-link" role="listitem" href="https://kplt20.org/" target="_blank" rel="noopener" data-preview-color="#33417e" data-preview-label="09">
+            <span className="p-dot" aria-hidden="true"></span>
+            <span className="p-name">Koshi Pride League &mdash; Cricket Platform</span>
+            <span className="sr-only"> (opens in a new tab)</span>
+            <span className="p-arrow" aria-hidden="true">
+              <FaArrowUpRightFromSquare aria-hidden="true" focusable="false" />
+            </span>
+          </a>
+          <a className="project-link" role="listitem" href="https://lotto.rajatshrestha.info.np/" target="_blank" rel="noopener" data-preview-color="#337e70" data-preview-label="10">
             <span className="p-dot" aria-hidden="true"></span>
             <span className="p-name">Lottery Results &amp; Tickets App</span>
             <span className="sr-only"> (opens in a new tab)</span>
@@ -201,9 +206,25 @@ const Project = () => {
               <FaArrowUpRightFromSquare aria-hidden="true" focusable="false" />
             </span>
           </a>
-          <a className="project-link" role="listitem" href="#" target="_blank" rel="noopener" data-preview-color="#337e70" data-preview-label="10">
+          <a className="project-link" role="listitem" href="https://futureworkrealestate.com/" target="_blank" rel="noopener" data-preview-color="#7e3333" data-preview-label="11">
             <span className="p-dot" aria-hidden="true"></span>
-            <span className="p-name">Developer Portfolio Site</span>
+            <span className="p-name">FutureWork &mdash; Real Estate Platform</span>
+            <span className="sr-only"> (opens in a new tab)</span>
+            <span className="p-arrow" aria-hidden="true">
+              <FaArrowUpRightFromSquare aria-hidden="true" focusable="false" />
+            </span>
+          </a>
+          <a className="project-link" role="listitem" href="https://zamzamperfumes.com.np/" target="_blank" rel="noopener" data-preview-color="#5c337e" data-preview-label="12">
+            <span className="p-dot" aria-hidden="true"></span>
+            <span className="p-name">ZamZam Perfumes &mdash; E-commerce Site</span>
+            <span className="sr-only"> (opens in a new tab)</span>
+            <span className="p-arrow" aria-hidden="true">
+              <FaArrowUpRightFromSquare aria-hidden="true" focusable="false" />
+            </span>
+          </a>
+          <a className="project-link" role="listitem" href="https://nemdec-nepal-client.netlify.app/" target="_blank" rel="noopener" data-preview-color="#7e5533" data-preview-label="13">
+            <span className="p-dot" aria-hidden="true"></span>
+            <span className="p-name">NEMDEC &mdash; Consultancy Website</span>
             <span className="sr-only"> (opens in a new tab)</span>
             <span className="p-arrow" aria-hidden="true">
               <FaArrowUpRightFromSquare aria-hidden="true" focusable="false" />
