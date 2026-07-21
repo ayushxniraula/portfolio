@@ -276,7 +276,7 @@ useEffect(() => {
       </div>
 
       <div className="dock" id="dock">
-        <button
+        {/* <button
           className="dock-btn"
           id="kbdToggle"
           type="button"
@@ -289,11 +289,11 @@ useEffect(() => {
             <FaKeyboard aria-hidden="true" focusable="false" />
           </span>
           Keyboard
-        </button>
+        </button> */}
 
        
 
-        <button
+        {/* <button
           className="dock-btn connect-toggle"
           id="connectToggle"
           type="button"
@@ -303,7 +303,7 @@ useEffect(() => {
         >
           <span className="connect-dot" aria-hidden="true"></span>
           Connect
-        </button>
+        </button> */}
 
         <button
           className="dock-btn theme-toggle"

@@ -45,7 +45,7 @@ const Footer = () => {
               >
                 |
               </span>
-             <p className="email">made with love 💖</p> 
+             <p className="email">made with love</p> 
             </span>
           </div>
           <nav className="socials" aria-label="Social media links">
