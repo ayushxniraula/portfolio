@@ -1590,6 +1590,174 @@
         font-weight: 500;
         color: var(--ink);
       }
+      .post-body h3 {
+        font-size: var(--fs-title);
+        margin: var(--sp-4) 0 var(--sp-1);
+        color: var(--ink);
+      }
+
+      /* ---- Blog cover images ---- */
+      .blog-row-cover {
+        flex: none;
+        width: 64px;
+        height: 44px;
+        border-radius: 6px;
+        overflow: hidden;
+        border: 1px solid var(--hairline);
+        background: var(--surface);
+      }
+      .blog-row-cover img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      @media (max-width: 560px) {
+        .blog-row-cover {
+          width: 44px;
+          height: 32px;
+        }
+      }
+
+      .post-cover {
+        margin: var(--sp-3) 0 var(--sp-4);
+        border-radius: 10px;
+        overflow: hidden;
+        border: 1px solid var(--hairline);
+      }
+      .post-cover img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .post-footer {
+        margin-top: var(--sp-5);
+        padding-top: var(--sp-3);
+        border-top: 1px solid var(--hairline);
+      }
+      .post-footer a {
+        font-size: var(--fs-sm);
+        color: var(--link);
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .post-footer a:hover,
+      .post-footer a:focus-visible {
+        color: var(--link-hover);
+        text-decoration: underline;
+      }
+
+      /* ---- Case study page ---- */
+      .case-study {
+        margin-top: var(--sp-2);
+      }
+      .cs-header-meta {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: var(--sp-2);
+      }
+      .cs-title {
+        font-size: 20px;
+        line-height: 1.35;
+        margin: 0 0 var(--sp-2);
+        color: var(--ink);
+      }
+      .cs-dek {
+        font-size: var(--fs-sm);
+        color: var(--ink-soft);
+        max-width: 62ch;
+        margin: 0 0 var(--sp-3);
+      }
+      .cs-cover {
+        border-radius: 10px;
+        overflow: hidden;
+        border: 1px solid var(--hairline);
+        margin-bottom: var(--sp-4);
+      }
+      .cs-cover img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      .cs-body h3 {
+        font-size: var(--fs-title);
+        margin: var(--sp-4) 0 var(--sp-1);
+        color: var(--ink);
+      }
+      .cs-body p {
+        font-size: var(--fs-sm);
+        color: var(--ink-soft);
+      }
+      .cs-list {
+        margin: 0 0 var(--sp-2);
+        padding-left: 1.2em;
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-1);
+      }
+      .cs-list li {
+        font-size: var(--fs-sm);
+        color: var(--ink-soft);
+        line-height: 1.65;
+      }
+      .cs-list b {
+        color: var(--ink);
+        font-weight: 600;
+      }
+      .cs-footer {
+        margin-top: var(--sp-5);
+        padding-top: var(--sp-3);
+        border-top: 1px solid var(--hairline);
+      }
+      .cs-footer a {
+        font-size: var(--fs-sm);
+        color: var(--link);
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .cs-footer a:hover,
+      .cs-footer a:focus-visible {
+        color: var(--link-hover);
+        text-decoration: underline;
+      }
+
+      /* ---- Approach page ---- */
+      .approach-list {
+        display: flex;
+        flex-direction: column;
+        margin-top: var(--sp-3);
+      }
+      .approach-row {
+        display: flex;
+        gap: var(--sp-3);
+        padding: var(--sp-3) 0;
+        border-top: 1px solid var(--hairline);
+      }
+      .approach-list .approach-row:last-child {
+        border-bottom: 1px solid var(--hairline);
+      }
+      .approach-index {
+        flex: none;
+        width: 28px;
+        font-size: var(--fs-xs);
+        color: var(--muted);
+        font-weight: 600;
+        padding-top: 2px;
+      }
+      .approach-title {
+        font-size: var(--fs-title);
+        font-weight: 600;
+        color: var(--ink);
+        margin-bottom: 6px;
+      }
+      .approach-body {
+        font-size: var(--fs-sm);
+        color: var(--ink-soft);
+        margin: 0;
+        max-width: 62ch;
+      }
 
 
 

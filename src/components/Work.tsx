@@ -3,6 +3,7 @@ import {
   SiAngular,
   SiDocker,
   SiExpress,
+  SiGit,
   SiMongodb,
   SiNodedotjs,
   SiReact,
@@ -313,10 +314,10 @@ const Work = () => {
               </div>
                 <div className="stack-row" role="listitem">
                 <span className="stack-icon" aria-hidden="true">
-                  <SiExpress aria-hidden="true" focusable="false" />
+                  <SiGit aria-hidden="true" focusable="false" />
                 </span>
                 <span className="stack-name">
-                  Express <span>&mdash; API</span>
+                  Git <span>&mdash; version control</span>
                 </span>
               </div>
             </div>

@@ -71,9 +71,8 @@ export default function YearLedger() {
           </span>
         </div>
          <div className="section-sub">
-          where I've been, and what I build with Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Fugiat, incidunt odio quaerat beatae
-          voluptate, quidem soluta max
+          a day-by-day map of the year — every cell is a day, filled in as it
+          passes, so there's always a quiet sense of how much runway is left.
         </div>
    
 

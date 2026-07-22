@@ -5,8 +5,9 @@ const Nav = () => {
   const navigate = useNavigate();
 
   const isHome: any = location.pathname === "/";
-  const caseStudyActive: any = location.pathname === "/case-study";
+  const caseStudyActive: any = location.pathname.startsWith("/case-study");
   const contactActive: any = location.pathname === "/contact";
+  const approachActive: any = location.pathname === "/approach";
 
   const isBack: any = !isHome;
   const isBlogPost: any = /^\/blog\/.+/.test(location.pathname);
@@ -53,6 +54,12 @@ const Nav = () => {
             to="/case-study"
           >
             Case Study
+          </Link>
+          <Link
+            className={"nav-link" + (approachActive ? " is-active" : "")}
+            to="/approach"
+          >
+            Approach
           </Link>
           <Link
   className={"nav-link" + (contactActive ? " is-active" : "")}

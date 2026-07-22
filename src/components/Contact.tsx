@@ -69,7 +69,7 @@ export default function Contact() {
   return (
     <div className="contact-page" data-reveal>
         <h1>Contact</h1>
-      <p className="tagline">notes on design, code, and the systems in between.</p>
+      <p className="tagline">have a project, a role, or just a question? this is the place.</p>
   
 
       <div className="contact-blueprint-grid">
