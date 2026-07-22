@@ -2347,3 +2347,90 @@
     row-gap: var(--sp-3);
   }
 }
+/* ==========================================================================
+   Mobile responsiveness pass — global safety net + nav/dock fixes
+   ========================================================================== */
+
+/* Prevent any stray element from causing horizontal scroll on small screens */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+/* ---- Top nav: stack brand + links instead of squeezing / overflowing ---- */
+@media (max-width: 640px) {
+  .top-row {
+    flex-wrap: wrap;
+    row-gap: var(--sp-2);
+    margin-bottom: var(--sp-4);
+  }
+  .top-nav {
+    gap: var(--sp-2);
+    flex-wrap: wrap;
+    row-gap: 6px;
+  }
+}
+
+@media (max-width: 400px) {
+  .top-nav {
+    gap: 12px;
+  }
+  .nav-link {
+    font-size: 11px;
+  }
+}
+
+/* ---- Dock: keep buttons from overflowing viewport on very small phones ---- */
+@media (max-width: 380px) {
+  .dock-btn span:not(.dock-icon) {
+    display: none;
+  }
+  .dock-btn {
+    padding: 0 9px;
+  }
+}
+
+/* ---- Headline row / portrait: keep portrait from crowding text ---- */
+@media (max-width: 420px) {
+  .portrait {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* ---- Blog rows: let title/date wrap cleanly instead of compressing ---- */
+@media (max-width: 400px) {
+  .blog-row {
+    flex-wrap: wrap;
+  }
+  .blog-row-date {
+    width: auto;
+  }
+  .blog-row-cover {
+    order: -1;
+  }
+}
+
+/* ---- Connect modal: fill more of the viewport width on small phones ---- */
+@media (max-width: 420px) {
+  .connect-overlay {
+    padding: var(--sp-2);
+    align-items: flex-end;
+  }
+  .connect-modal {
+    max-width: 100%;
+  }
+}
+
+/* ---- Case study / approach headers: avoid cramped meta rows ---- */
+@media (max-width: 420px) {
+  .cs-header-meta {
+    flex-wrap: wrap;
+  }
+}
